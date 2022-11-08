@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 700px;
+    background-color: #00ff00;
+}
+.chronometre{
+    background-color: #f5faf5;
+    padding: 10px;
+    border-radius: 6px;
+    width: 400px;
+    text-align: center;
+}
+.time{
+    width: 100%;
+    border: 1px solid #c2d3c2;
+    border-radius: 6px;
+    font-size: 30px;
+}
+.control{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    padding: 6px;
+}
+button{
+    background-color: #4b27ee;
+    color: #c2d3c2;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0px;
+    width: 31%;
+}
